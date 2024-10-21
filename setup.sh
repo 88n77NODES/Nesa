@@ -29,10 +29,5 @@ sudo ufw allow 31333
 
 echo -e "${green}Запускаємо скрипт для встановлення ноди...${nc}"
 bash <(curl -s https://raw.githubusercontent.com/nesaorg/bootstrap/master/bootstrap.sh) <<EOF
-your_moniker
-your_email@example.com
-your_referral_code
-your_huggingface_api_token
-your_private_key
-Y
+
 EOF
